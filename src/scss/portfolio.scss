@@ -38,7 +38,77 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url('../img/css.png');
+  background-image: url('../img/todo.jpg');
+  opacity: 0.3;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.content-portfolio-slider:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../img/slider.jpg');
+  opacity: 0.3;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.content-portfolio-emProfile:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../img/em-profile.jpg');
+  opacity: 0.3;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.content-portfolio-snake:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../img/snake.jpg');
+  opacity: 0.3;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.content-portfolio-tictactoe:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../img/tictactoe.jpg');
+  opacity: 0.3;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.content-portfolio-blueeasy:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../img/blueeasy.jpg');
   opacity: 0.3;
   background-size: cover;
   background-position: center center;
@@ -51,6 +121,7 @@
 }
 .portfolioItem-header {
   position: relative;
+  color: #ff0;
 }
 .portfolioItem-description {
   font-weight: 400;
