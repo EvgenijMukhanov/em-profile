@@ -1,0 +1,118 @@
+.portfolio {
+
+}
+.container-portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 50px;
+}
+.contentWrap-portfolioItems {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+}
+.contentWrap-portfolioItem {
+  display: flex;
+  width: 30%;
+  height: 16rem;
+}
+.contentWrap-link {
+  position: relative;
+  overflow: hidden;
+  margin-left: 3px;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+}
+.content-portfolio-todo:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../img/css.png');
+  opacity: 0.3;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.portfolioItem {
+  text-align: center;
+  padding: 15px;
+  z-index: 100;
+}
+.portfolioItem-header {
+  position: relative;
+}
+.portfolioItem-description {
+  font-weight: 400;
+  position: relative;
+}
+.portfolioInfo {
+  padding: 25px 15px;
+  z-index: 0;
+  position: absolute;
+  text-align: center;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgba(20,20,20,1); 
+  transform: translateX(-100%);
+  transition: transform 0.3s ease;
+}
+.portfolioInfo__show {
+  transform: translateX(0);
+}
+.portfolioInfo-stackHeader {
+  text-transform: uppercase;
+}
+.portfolioInfo-stackList {
+
+}
+.portfolioInfo-stackItem {
+  padding-bottom: 5px;
+}
+.portfolioInfo-buttons {
+  display: flex;
+  justify-content: space-around;
+}
+.portfolioInfo-button {
+  cursor: pointer;
+  background-color: inherit;
+  border: 1px solid #fff;
+  padding: 6px;
+  border-radius: 6px;
+  color: #fff;
+  transition: color 0.8s ease, border 0.8s ease;
+}
+.portfolioInfo-button:hover {
+  border: 1px solid #ff0;
+  color: #ff0;
+}
+
+@media screen and (max-width : 960px) {
+  .contentWrap-portfolioItems {
+    margin-top: 80px;
+  }
+  .contentWrap-portfolioItem {
+    width: 45%;
+  }
+}
+@media screen and (max-width : 660px) {
+  .contentWrap-portfolioItem {
+    width: 100%;
+  }
+}
